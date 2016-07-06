@@ -1,0 +1,93 @@
+.logoPanakeia {
+    width: 157px;
+    height: 28px;
+    color: #31353e;
+    font-family: Roboto Slab,sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.logoFree{
+    width: 155px;
+    height: 16px;
+    color: #dd4b2b;
+    font-family: Roboto Slab,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+.containerPanakeia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.list{
+   display: flex;
+    flex-flow: row;
+    align-items: center;
+    list-style: none;
+
+
+}
+.list li{
+    margin-right: 44px;
+
+
+}
+.list a:hover{
+    display: block;
+    width: 144px;
+    height: 49px;
+    background-color: #dd4b2b;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+.list a{
+    text-decoration: none;
+}
+div ul li a{
+    font-family: Roboto     Slab, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #31353e;
+
+}
+
+.backimg{
+    display: flex;
+    flex-flow: row;
+    background-image: url("img/photo-1416453072034-c8dbfa2856b5.png");
+    background-size: cover;
+    height: 800px;
+}
+.backimg p{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Roboto Slab, sans-serif;
+    line-height: 48px;
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.img1{
+    align-items: center;
+
+
+}
+.img2{
+    align-items: center;
+
+
+}
+.img3{
+    align-items: center;
+
+}
