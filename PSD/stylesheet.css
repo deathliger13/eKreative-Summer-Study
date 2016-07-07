@@ -2,22 +2,24 @@
     width: 157px;
     height: 28px;
     color: #31353e;
-    font-family: Roboto Slab,sans-serif;
+    font-family: Roboto Slab, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
 }
-.logoFree{
+
+.logoFree {
     width: 155px;
     height: 16px;
     color: #dd4b2b;
-    font-family: Roboto Slab,sans-serif;
+    font-family: Roboto Slab, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;
 
 }
-.containerPanakeia{
+
+.containerPanakeia {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,20 +27,20 @@
     padding-right: 2rem;
 }
 
-.list{
-   display: flex;
+.list {
+    display: flex;
     flex-flow: row;
     align-items: center;
     list-style: none;
 
-
 }
-.list li{
+
+.list li {
     margin-right: 44px;
 
-
 }
-.list a:hover{
+
+.list a:hover {
     display: block;
     width: 144px;
     height: 49px;
@@ -46,10 +48,12 @@
     border-radius: 24px;
     color: #FFFFFF;
 }
-.list a{
+
+.list a {
     text-decoration: none;
 }
-div ul li a{
+
+div ul li a {
     font-family: Roboto Slab, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -58,7 +62,7 @@ div ul li a{
 
 }
 
-.backimg{
+.backimg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +70,8 @@ div ul li a{
     background-size: cover;
     height: 800px;
 }
-.backimg p{
+
+.backimg p {
     color: #FFFFFF;
     font-family: Roboto Slab, sans-serif;
     line-height: 48px;
@@ -74,17 +79,17 @@ div ul li a{
     font-weight: 300;
 }
 
-.img-container{
+.imgContainer1 {
     display: flex;
     flex-flow: row;
     justify-content: center;
 }
 
-.textCenter{
+.textCenter {
     text-align: center;
 }
 
-.img1 p{
+.img1 p {
 
     color: white;
     font-family: Roboto Slab, sans-serif;
@@ -92,20 +97,23 @@ div ul li a{
     font-weight: 700;
     line-height: 24px;
 }
-.img2 p{
+
+.img2 p {
     color: white;
     font-family: Roboto Slab, sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 24px;
 }
-.img3 p{
+
+.img3 p {
     color: white;
     font-family: Roboto Slab, sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 24px;
 }
+
 .txt1 {
     color: white;
     font-family: Roboto, sans-serif;
@@ -130,13 +138,13 @@ div ul li a{
     line-height: 30px;
 }
 
-.butt1{
+.butt1 {
     display: flex;
     justify-content: center;
 
 }
 
-.txtButt{
+.txtButt {
     color: #612316;
     font-family: Roboto Slab, sans-serif;
     font-size: 18px;
@@ -147,4 +155,98 @@ div ul li a{
     background-color: white;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 27px;
+}
+
+.oNews {
+    text-align: center;
+    color: #31353e;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.imgContainer2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+}
+.imgSquare1 {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #31353e;
+    line-height: 30px;
+
+}
+.imgSquare2 {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #31353e;
+    line-height: 30px;
+}
+.imgSquare3 {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #31353e;
+    line-height: 30px;
+}
+
+.txtSquare1{
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #31353e;
+    line-height: 30px;
+}
+.txtSquare2{
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #31353e;
+    line-height: 30px;
+}
+.txtSquare3{
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #31353e;
+    line-height: 30px;
+}
+.imgSquare1 button{
+    color: #4e5159;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    width: 179px;
+}
+.imgSquare2 button{
+    color: #4e5159;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    width: 179px;
+}
+.imgSquare3 button{
+    color: #4e5159;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    width: 179px;
 }
