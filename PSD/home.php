@@ -1,13 +1,29 @@
 <?php include 'header.php'; ?>
 <div class="backimg">
 <div class="textCenter">
-    <p>Integer at tortor ut magna</p>
+    <?php
+    $homecontent  =[
+        'txtMain' => 'Integer at tortor ut magna',
+        'txtLowerMain' => 'finibus lobortis sed quis tellus.',
+        'img1' => 'img/layer-2.png',
+        //'img2' => 'img/layer-3.png',
+        //'img3' => 'img/layer-4.png',
+        'txt1' => 'Tincidunt',
+        'txt1_1' => 'Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam
+                tempus egestas efficitur. Sed quam dolor.'
+    ];
+    ?>
+    <?php foreach($homecontent as $hcontent){?>
+       <p><p><div><div><p><p><?php echo "$hcontent";?></p></p></div></div></p></p>
+    <?php}
+    ?>
+    <!--<p>Integer at tortor ut magna</p>
     <p>finibus lobortis sed quis tellus.</p>
     <div class="imgContainer1">
         <div class="img1"><img src="img/layer-2.png"/>
             <p>Tincidunt</p>
             <p class=" txt1">Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam
-                tempus egestas efficitur. Sed quam dolor.</p>
+                tempus egestas efficitur. Sed quam dolor.</p>-->
         </div>
         <div class="img2"><img src="img/layer-3.png">
             <p>Duis bibendum</p>
