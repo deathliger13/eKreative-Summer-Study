@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+$headerPanakeia = [
+    'link1' => 'Fusce at',
+    'link2' => 'Facilisis',
+    'link3' => 'Ante donec',
+    'link4' => 'Blandit rhoncus',
+    'link5' => 'Placerat'
+];
+?>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -12,16 +21,22 @@
 <header>
     <div class="containerPanakeia">
         <div>
+
             <p class="logoPanakeia">Panakeia</p>
             <p class=" logoFree">Free PSD template</p>
         </div>
         <div>
             <ul class="list">
-                <li><a href="#">Fusce at</a></li>
-                <li><a href="#">Facilisis</a></li>
-                <li><a href="#">Ante donec</a></li>
-                <li><a href="#">Blandit rhoncus</a></li>
-                <li><a href="#">Placerat</a></li>
+                <?php
+                foreach ($headerPanakeia as $header){
+                ?>
+                <li><a><?php echo "$header"?></a></li>
+                <?php }?>
+                <!--  <li><a href="#">Fusce at</a></li>
+                  <li><a href="#">Facilisis</a></li>
+                  <li><a href="#">Ante donec</a></li>
+                  <li><a href="#">Blandit rhoncus</a></li>
+                  <li><a href="#">Placerat</a></li> -->
             </ul>
         </div>
     </div>

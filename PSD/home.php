@@ -1,4 +1,4 @@
-< ?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <div class="backimg">
 <div class="textCenter">
     <p>Integer at tortor ut magna</p>
@@ -48,4 +48,4 @@
 
     </div>
 </div>
-< ?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
