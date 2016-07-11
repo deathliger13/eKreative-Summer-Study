@@ -50,7 +50,6 @@
 
             ?>
             <?php foreach ($topContent as $top) { ?>
-            <?php echo $top ?>
             <p>Integer at tortor ut magna</p>
             <p>finibus lobortis sed quis tellus.</p>
             <div class="imgContainer1">
@@ -62,16 +61,16 @@
                 </div>
 
 
-                <div class="img2"><img src=<?php echo $top['img2'] ?>/>
-                    <p><?php echo $top['title2'] ?></p>
-                    <p class="txt2"> <?php echo $top['txt3'] ?> </p>
-                </div>
+                    <div class="img2"><img src=<?php echo $top['img2'] ?>/>
+                        <p><?php echo $top['title2'] ?></p>
+                        <p class="txt2"> <?php echo $top['txt3'] ?> </p>
+                    </div>
 
 
-                <div class="img3"><img src="<?php echo $top['img3'] ?>">
-                    <p><?php echo $top['title3'] ?></p>
-                    <p class="txt3"><?php echo $top['txt3'] ?></p>
-                </div>
+                    <div class="img3"><img src="<?php echo $top['img3'] ?>">
+                        <p><?php echo $top['title3'] ?></p>
+                        <p class="txt3"><?php echo $top['txt3'] ?></p>
+                    </div>
                 <?php } ?>
             </div>
             <div class="butt1">
