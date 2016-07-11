@@ -2,39 +2,48 @@
 <div class="backimg">
 <div class="textCenter">
     <?php
-    $homecontent  =[
-        'txtMain' => 'Integer at tortor ut magna',
-        'txtLowerMain' => 'finibus lobortis sed quis tellus.',
-        'img1' => 'img/layer-2.png',
-        //'img2' => 'img/layer-3.png',
-        //'img3' => 'img/layer-4.png',
-        'txt1' => 'Tincidunt',
-        'txt1_1' => 'Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam
+    $homecontent = [
+        ['txt1' => 'Integer at tortor ut magna',
+         'txt2' => 'finibus lobortis sed quis tellus.',
+        ],
+
+        [
+            'img1' => 'PSD/img/layer-2.png',
+            'txt3' => 'Tincidunt',
+            'txt4' => 'Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam
                 tempus egestas efficitur. Sed quam dolor.'
+        ],
+    [
+        'img2' => 'img/layer-3.png',
+        'txt5' => 'Duis bibendum',
+        'txt6' => 'Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
+                ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst.'
+        ],
+        [
+            'img3' => 'img/layer-4.png',
+        ]
     ];
+
     ?>
-    <?php foreach($homecontent as $hcontent){?>
-       <p><p><div><div><p><p><?php echo "$hcontent";?></p></p></div></div></p></p>
-    <?php}
-    ?>
-    <!--<p>Integer at tortor ut magna</p>
-    <p>finibus lobortis sed quis tellus.</p>
+    <?php foreach ($homecontent as $hcontent) {?>
+    <p><?php echo $hcontent['txt1']?></p>
+    <p><?php echo $hcontent['txt2']?></p>
     <div class="imgContainer1">
-        <div class="img1"><img src="img/layer-2.png"/>
-            <p>Tincidunt</p>
-            <p class=" txt1">Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam
-                tempus egestas efficitur. Sed quam dolor.</p>-->
+        <div class="img1"><img src=<?php echo $hcontent['img1']?>/>
+
+
+            <p><?php echo $hcontent['txt3']?></p>
+            <p class=" txt1"><?php echo $hcontent['txt4']?></p>
         </div>
-        <div class="img2"><img src="img/layer-3.png">
-            <p>Duis bibendum</p>
-            <p class="txt2">Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
-                ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst. </p>
+        <div class="img2"><img src=<?php echo $hcontent['img2']?>>
+            <p><?php echo $hcontent['txt5']?></p>
+            <p class="txt2"> <?php echo $hcontent['txt6']?> </p>
         </div>
-        <div class="img3"><img src="img/layer-4.png">
+        <div class="img3"><img src="<?php echo $hcontent['img3']?>">
             <p>Donec ligula</p>
             <p class="txt3">Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis
                 orci. Ut arcu arcu, faucibus eu risus blandit,.</p>
-        </div>
+        </div><?php } ?>
     </div>
     <div class="butt1">
         <button class="txtButt">Read more</button>
