@@ -59,14 +59,14 @@
                     <p><?php echo $top['title1'] ?></p>
                     <p class=" txt1"><?php echo $top['txt1'] ?></p>
                 </div>
-                <?php } ?>
-                <?php foreach ($topContent as $top) { ?>
+
+
                     <div class="img2"><img src=<?php echo $top['img2'] ?>/>
                         <p><?php echo $top['title2'] ?></p>
                         <p class="txt2"> <?php echo $top['txt3'] ?> </p>
                     </div>
-                <?php } ?>
-                <?php foreach ($topContent as $top) { ?>
+
+                
                     <div class="img3"><img src="<?php echo $top['img3'] ?>">
                         <p><?php echo $top['title3'] ?></p>
                         <p class="txt3"><?php echo $top['txt3'] ?></p>
@@ -87,15 +87,15 @@
         <p class="txtSquare1"><?php echo $news['txt1'] ?></p>
         <button><?php echo $news['butt1'] ?></button>
     </div>
-<?php } ?>
-<?php foreach ($newsList as $news) { ?>
+
+
     <div class="imgSquare2"><img src=<?php echo $news['img2'] ?>/>
         <p><?php echo $news['title2'] ?></p>
         <p class="txtSquare1"><?php echo $news['txt2'] ?></p>
         <button><?php echo $news['butt2'] ?></button>
     </div>
-<?php } ?>
-<?php foreach ($newsList as $news) { ?>
+
+
     <div class="imgSquare3"><img src=<?php echo $news['img3'] ?>/>
         <p><?php echo $news['title3'] ?></p>
         <p class="txtSquare1"><?php echo $news['txt3'] ?></p>
