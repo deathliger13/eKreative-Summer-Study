@@ -25,7 +25,7 @@
 
             $newsList = [
                 [
-                    'h3' => 'Our News',
+
                     'img' => 'img/layer-5.png',
                     'title' => 'Lore ipsum',
                     'text' => 'Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
@@ -50,58 +50,62 @@
 
             ?>
             <?php foreach ($topContent as $top) { ?>
-            <p>Integer at tortor ut magna</p>
-            <p>finibus lobortis sed quis tellus.</p>
-            <div class="imgContainer1">
-                <div class="img1"><img src=<?php echo $top['img'] ?>/>
+                <p>Integer at tortor ut magna</p>
+                <p>finibus lobortis sed quis tellus.</p>
+                <div class="imgContainer1">
+                    <div class="img1"><img src=<?php echo $top['img']; ?>/>
 
 
-                    <p><?php echo $top['title'] ?></p>
-                    <p class=" txt1"><?php echo $top['text'] ?></p>
+                        <p><?php echo $top['title']; ?></p>
+                        <p class=" txt1"><?php echo $top['text']; ?></p>
+                    </div>
+
+
+                    <!--<div class="img2"><img src=<?php //echo $top['img'];?>/>
+                        <p><?php //echo $top['title'];?></p>
+                        <p class="txt2"> <?php //echo $top['text'];?> </p>
+                    </div>
+
+
+                    <div class="img3"><img src="<?php //echo $top['img'];?>">
+                        <p><?php //echo $top['title'];?></p>
+                        <p class="txt3"><?php //echo $top['text'];?></p>
+                    </div>-->
+
                 </div>
-
-
-                    <div class="img2"><img src=<?php echo $top['img'] ?>/>
-                        <p><?php echo $top['title'] ?></p>
-                        <p class="txt2"> <?php echo $top['text'] ?> </p>
-                    </div>
-
-
-                    <div class="img3"><img src="<?php echo $top['img'] ?>">
-                        <p><?php echo $top['title'] ?></p>
-                        <p class="txt3"><?php echo $top['text'] ?></p>
-                    </div>
-                <?php } ?>
-            </div>
+            <?php } ?>
             <div class="butt1">
                 <button class="txtButt">Read more</button>
             </div>
+
         </div>
 
     </div>
+
+
+    <h3 class="oNews">Our News</h3>
 <?php foreach ($newsList as $news) { ?>
-    <h3 class="oNews"><?php echo $news['h3'] ?></h3>
     <div class="imgContainer2">
-    <div class="imgSquare1"><img src=<?php echo $news['img'] ?>/>
-        <p><?php echo $news['title'] ?></p>
-        <p class="txtSquare1"><?php echo $news['text'] ?></p>
+    <div class="imgSquare1"><img src=<?php echo $news['img']; ?>/>
+        <p><?php echo $news['title']; ?></p>
+        <p class="txtSquare1"><?php echo $news['text']; ?></p>
         <button>Read More</button>
     </div>
 
 
-    <div class="imgSquare2"><img src=<?php echo $news['img'] ?>/>
-        <p><?php echo $news['title'] ?></p>
-        <p class="txtSquare1"><?php echo $news['text'] ?></p>
+    <!--<div class="imgSquare2"><img src=<?php //echo $news['img'];?>/>
+        <p><?php //echo $news['title'];?></p>
+        <p class="txtSquare1"><?php //echo $news['text'];?></p>
         <button>Read More</button>
     </div>
 
 
-    <div class="imgSquare3"><img src=<?php echo $news['img'] ?>/>
-        <p><?php echo $news['title'] ?></p>
-        <p class="txtSquare1"><?php echo $news['text'] ?></p>
+    <div class="imgSquare3"><img src=<?php //echo $news['img'];?>/>
+        <p><?php //echo $news['title'];?></p>
+        <p class="txtSquare1"><?php //echo $news['text'];?></p>
         <button>Read More</button>
 
-    </div>
+    </div>-->
 <?php } ?>
     </div>
 
