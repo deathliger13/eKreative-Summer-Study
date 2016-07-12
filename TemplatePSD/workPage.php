@@ -47,6 +47,6 @@ $workIMG = [
         <button class  = "Load">LOAD MORE PROJECTS</button>
     </div>
 </div>
-
+<p></p>
 
 <?php include 'footer.php.'; ?>
