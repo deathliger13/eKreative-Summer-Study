@@ -142,3 +142,79 @@ text-align: center;
     font-weight: 300;
     line-height: 24px;
 }
+
+.workBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1423px;
+    background-color: #fd9;
+
+}
+.workHeader{
+    margin: 0%;
+    color: #393939;
+    font-family: Titillium Web, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.workTxt{
+    color: #393939;
+    font-family: Titillium Web, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.forbutt:hover{
+    height: 38px;
+    background-color: white;
+    border-radius: 4px;
+}
+.workContent{
+    text-align: center;
+}
+
+.workBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+
+}
+
+.workBtn button{
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    border: none;
+    margin-right: 2px ;
+}
+.workImg{
+    display: flex;
+
+
+    flex-flow: row;
+}
+
+.Load{
+    height: 70px;
+    background-color: #17c2a4;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: Titillium Web, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.imgTxt{
+
+    color: #393939;
+    font-family: Titillium Web, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
