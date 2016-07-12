@@ -178,8 +178,8 @@ text-align: center;
 .workBtn{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-flow: row;
+    width: 43px;
 
 }
 
@@ -190,11 +190,12 @@ text-align: center;
     border: none;
     margin-right: 2px ;
 }
-.workImg{
-    display: flex;
+.workImg1{
+
+}
+.workImg2{
 
 
-    flex-flow: row;
 }
 
 .Load{
@@ -210,7 +211,6 @@ text-align: center;
 }
 
 .imgTxt{
-
     color: #393939;
     font-family: Titillium Web, sans-serif;
     font-size: 18px;

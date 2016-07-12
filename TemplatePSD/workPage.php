@@ -6,7 +6,7 @@ $workContent = [
     ['button' => 'APPS'],
     ['button' => 'ICONS'],
 ];
-$workIMG = [
+$workIMG1 = [
     [
         'img' => 'img/iso.png',
         'text' => 'Isometric Perspective Mock-Up'
@@ -14,8 +14,9 @@ $workIMG = [
     [
         'img' => 'img/time.png',
         'text' => 'Time Zone App UI'
-    ],
-    [
+    ]];
+  $workIMG2 = [
+      [
         'img' => 'img/viro.png',
         'text' => 'Viro Media Players UI'
     ],
@@ -38,15 +39,22 @@ $workIMG = [
                 <?php } ?>
             </div>
 
-        <?php foreach ($workIMG as $workI) { ?>
-            <div class="workImg">
-                <img src="<?php echo $workI['img'] ?>" alt="404" class="working">
+        <?php foreach ($workIMG1 as $workI1) { ?>
+            <div class="workImg1">
+                <img src="<?php echo $workI1['img'] ?>" alt="404" class="working1">
             </div>
-            <p class="imgTxt"><?php echo $workI['text'] ?></p>
+            <p class="imgTxt"><?php echo $workI1['text'] ?></p>
         <?php } ?>
+
+        <?php foreach ($workIMG2 as $workI2) { ?>
+            <div class="workImg2">
+                <img src="<?php echo $workI2['img'] ?>" alt="404" class="working2">
+            </div>
+            <p class="imgTxt"><?php echo $workI2['text'] ?></p>
+        <?php }?>
         <button class  = "Load">LOAD MORE PROJECTS</button>
     </div>
 </div>
-<p></p>
+
 
 <?php include 'footer.php.'; ?>
