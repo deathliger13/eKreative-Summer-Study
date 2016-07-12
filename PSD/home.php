@@ -61,17 +61,6 @@
                     </div>
 
 
-                    <!--<div class="img2"><img src=<?php //echo $top['img'];?>/>
-                        <p><?php //echo $top['title'];?></p>
-                        <p class="txt2"> <?php //echo $top['text'];?> </p>
-                    </div>
-
-
-                    <div class="img3"><img src="<?php //echo $top['img'];?>">
-                        <p><?php //echo $top['title'];?></p>
-                        <p class="txt3"><?php //echo $top['text'];?></p>
-                    </div>-->
-
                 </div>
             <?php } ?>
             <div class="butt1">
@@ -93,19 +82,6 @@
     </div>
 
 
-    <!--<div class="imgSquare2"><img src=<?php //echo $news['img'];?>/>
-        <p><?php //echo $news['title'];?></p>
-        <p class="txtSquare1"><?php //echo $news['text'];?></p>
-        <button>Read More</button>
-    </div>
-
-
-    <div class="imgSquare3"><img src=<?php //echo $news['img'];?>/>
-        <p><?php //echo $news['title'];?></p>
-        <p class="txtSquare1"><?php //echo $news['text'];?></p>
-        <button>Read More</button>
-
-    </div>-->
 <?php } ?>
     </div>
 
