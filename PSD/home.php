@@ -1,6 +1,8 @@
 <?php include 'header.php'; ?>
     <div class="backimg">
         <div class="textCenter">
+            <p>Integer at tortor ut magna</p>
+            <p>finibus lobortis sed quis tellus.</p>
             <?php
             $topContent = [
                 [
@@ -49,16 +51,13 @@
             ];
 
             ?>
+
             <?php foreach ($topContent as $top) { ?>
-                <p>Integer at tortor ut magna</p>
-                <p>finibus lobortis sed quis tellus.</p>
                 <div class="imgContainer1">
-                    <div class="img1"><img src=<?php echo $top['img']; ?>/>
-
-
+                    <div class="img1"><div class="img2"><div class="img3"><img src=<?php echo $top['img']; ?>/>
                         <p><?php echo $top['title']; ?></p>
-                        <p class=" txt1"><?php echo $top['text']; ?></p>
-                    </div>
+                        <p class=" txt1"><?php echo $top['txt']; ?></p>
+                    </div></div></div>
 
 
                 </div>
