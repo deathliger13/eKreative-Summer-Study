@@ -5,10 +5,17 @@
         <p class="contactTxt">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111.</p>
         <div class="contactDetails">
         <form action="#" class="contactForm">
-            <input type="text" name = "Your Name" class="txt1">
-            <input type="text" name  ="Your Email" class="txt2">
-            <textarea name="Your Message" id="1" cols="30" rows="10" class="area"></textarea>
+            <div class="textStyle">
+            <input type="text" name = "Your Name" class="txt1" placeholder="Your Name">
+            <input type="text" name  ="Your Email" class="txt2" placeholder="Your Email">
+            </div>
+            <div class="areaStyle">
+            <textarea name="Your Message" id="1" cols="30" rows="10" class="area" placeholder="Your Message"></textarea>
+            </div>
         </form>
+
+        </div>
+        <div class="buttSend">
             <button class="contactSend">SEND</button>
         </div>
     </div>
