@@ -262,3 +262,51 @@ text-decoration: none;
     color: #30bae7;
 
 }
+
+.blogHeader{
+    color: #3c4761;
+    font-family: Titillium Web, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.blogTxt{
+    color: #3c4761;
+    font-family: Titillium Web, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.blogHeader3{
+    color: #3c4761;
+    font-family: Titillium Web, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.blogBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 655px;
+    background-color: white;
+}
+
+.blogContainer{
+    margin: 60px;
+}
+.blogContent{
+    text-align: center;
+    margin-top: -102px;
+}
+.blCon{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+
+}
