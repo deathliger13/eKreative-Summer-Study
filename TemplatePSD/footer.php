@@ -3,11 +3,11 @@
 $footerContent = [
     [
         'txt' => 'Facebook',
-        'url' => 'facebook.com'
+        'url' => 'https://uk-ua.facebook.com/'
     ],
     [
         'txt' => 'Twitter',
-        'url' => 'twitter.com'
+        'url' => 'https://twitter.com/?lang=ru'
     ],
     [
         'txt' => 'Google+',
@@ -15,19 +15,19 @@ $footerContent = [
     ],
     [
         'txt' => 'LinkedIn',
-        'url' => 'linkedin.com'
+        'url' => 'https://www.linkedin.com/'
     ],
     [
         'txt' => 'Behance',
-        'url' => 'behance.net'
+        'url' => 'https://www.behance.net/'
     ],
     [
         'txt' => 'Dribbble',
-        'url' => 'dribbble.com'
+        'url' => 'https://dribbble.com/'
     ],
     [
         'txt' => 'GitHub',
-        'url' => 'github.com'
+        'url' => 'https://github.com/'
     ],
 
 ];
