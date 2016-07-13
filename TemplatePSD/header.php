@@ -5,7 +5,7 @@ $data = [
    'logo' => 'img/logo.png',
     'menu' => [
         ['title' => 'Home',
-        'url' => 'mainPage.php'],
+        'url' => 'index.php'],
     [
         'title' => 'About',
         'url' => 'aboutPage.php'],
@@ -17,7 +17,7 @@ $data = [
         'url' => 'blogPage.php'],
     [
         'title' => 'Contact',
-        'url' => '#']
+        'url' => 'contactPage.php']
 ],
 ];
 ?>
