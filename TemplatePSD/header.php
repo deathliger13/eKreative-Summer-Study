@@ -14,7 +14,7 @@ $data = [
         'url' => 'workPage.php'],
     [
         'title' => 'Blog',
-        'url' => '#'],
+        'url' => 'blogPage.php'],
     [
         'title' => 'Contact',
         'url' => '#']
@@ -47,5 +47,4 @@ $data = [
         </div>
     </div>
 </header>
-</body>
-</html>
+

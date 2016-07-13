@@ -49,23 +49,24 @@
     height: 32px;
 }
 
-.body{
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #87509c;
     height: 600px;
 }
-.content{
+
+.content {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 
-
 }
+
 .title {
-text-align: center;
+    text-align: center;
     margin: 0%;
     width: 906px;
     height: 88px;
@@ -77,7 +78,7 @@ text-align: center;
     margin-top: 105px;
 }
 
-.butt1{
+.butt1 {
     width: 293px;
     height: 70px;
     background-color: #eb7d4b;
@@ -91,7 +92,7 @@ text-align: center;
     margin-top: 60px;
 }
 
-.aboutBody{
+.aboutBody {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,34 +100,38 @@ text-align: center;
     background-color: #17c2a4;
 
 }
-.aboutContent{
-text-align: center;
+
+.aboutContent {
+    text-align: center;
 }
-.Container{
+
+.Container {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-flow: row;
 }
 
-.aboutHeader{
+.aboutHeader {
     color: white;
     font-family: Titillium Web, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    /*margin-top: -112px;*/
+    margin-top: -112px;
 
 }
-.aboutTxt{
+
+.aboutTxt {
     color: white;
     font-family: Titillium Web, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
 }
-.conHeader{
+
+.conHeader {
     color: white;
     font-family: Titillium Web, sans-serif;
     font-size: 24px;
@@ -135,7 +140,7 @@ text-align: center;
     text-transform: uppercase;
 }
 
-.conTxt{
+.conTxt {
     color: white;
     font-family: Titillium Web, sans-serif;
     font-size: 16px;
@@ -143,7 +148,7 @@ text-align: center;
     line-height: 24px;
 }
 
-.workBody{
+.workBody {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +156,8 @@ text-align: center;
     background-color: #fd9;
 
 }
-.workHeader{
+
+.workHeader {
     margin: 0%;
     color: #393939;
     font-family: Titillium Web, sans-serif;
@@ -159,46 +165,58 @@ text-align: center;
     font-weight: 700;
     line-height: 30px;
 }
-.workTxt{
+
+.workTxt {
     color: #393939;
     font-family: Titillium Web, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
 }
-.forbutt:hover{
+
+.forbutt:hover {
     height: 38px;
     background-color: white;
     border-radius: 4px;
 }
-.workContent{
+
+.workContent {
     text-align: center;
+    margin-top: -108px;
 }
 
-.workBtn{
+.workBtn {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-flow: row;
-    width: 43px;
+
+
 
 }
 
-.workBtn button{
+.workBtn button {
     height: 38px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 4px;
     border: none;
-    margin-right: 2px ;
-}
-.workImg1{
-
-}
-.workImg2{
-
-
+    margin-right: 2px;
 }
 
-.Load{
+.workImg1 {
+display: inline-block;
+    margin-top:68px;;
+
+
+}
+
+.workImg2 {
+display: inline-block;
+    margin-top: 55px;
+}
+
+.Load {
+    width: 293px;
     height: 70px;
     background-color: #17c2a4;
     border-radius: 4px;
@@ -208,13 +226,39 @@ text-align: center;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
+    margin: 0 auto;
+    margin-top: 68px;
 }
 
-.imgTxt{
+.imgTxt {
     color: #393939;
     font-family: Titillium Web, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    height: 112px;
+    background-color: #344b8e;
+
+}
+.txtfooter a{
+text-decoration: none;
+    font-family: Titillium Web, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    margin-right: 43px;
+}
+
+.txtfooter a:hover{
+    color: #30bae7;
+
 }
