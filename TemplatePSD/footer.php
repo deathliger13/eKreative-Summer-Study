@@ -35,8 +35,12 @@ $footerContent = [
 
 ?>
 <?php foreach ($footerContent as $footer) {?>
+<div class="footContent">
+
 <p class="txtfooter"><a href = "<?php echo $footer['url']?>"</a> <?php echo $footer['txt']?></p>
-    <?php }?>
+
+</div>
+<?php }?>
 
 </footer>
 </body>

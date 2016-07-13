@@ -1,38 +1,34 @@
 .headerPortfolio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 8rem;
     height: 127px;
     background-color: #87509c;
 }
 
 .logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+float: left;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-top: 30px;
 }
 
 .list {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+float: right;
     list-style: none;
 }
 
 .list li {
+    display: inline-block;
     margin-right: 44px;
     font-family: Titillium Web, sans-serif;
+    margin-top: 20px;
 
 }
 
 .list a:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     color: white;
     background-color: #643a79;
     border-radius: 4px 3px 3px 4px;
@@ -47,27 +43,22 @@
     line-height: 18px;
     text-transform: uppercase;
     height: 32px;
+
 }
 
 .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #87509c;
     height: 600px;
 }
 
 .content {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
 .title {
     text-align: center;
-    margin: 0%;
+    margin: 0 auto;
     width: 906px;
     height: 88px;
     color: #f7f3ea;
@@ -75,10 +66,17 @@
     font-size: 42px;
     font-weight: 700;
     line-height: 49px;
-    margin-top: 105px;
-}
 
+}
+.buttBlock{
+
+    display: inline-block;
+    padding-top: 5rem
+;
+
+}
 .butt1 {
+    margin: 0 auto;
     width: 293px;
     height: 70px;
     background-color: #eb7d4b;
@@ -89,7 +87,10 @@
     font-weight: 600;
     line-height: 26px;
     border: none;
-    margin-top: 60px;
+    vertical-align: middle;
+    position: absolute;
+    left: 460px;
+
 }
 
 .aboutBody {
@@ -239,13 +240,18 @@ display: inline-block;
     text-transform: uppercase;
 }
 
+.footContent{
+    display: inline-block;
+    padding-left: 9rem;
+}
 .footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row;
+
     height: 112px;
     background-color: #344b8e;
+
+}
+.txtfooter{
+    position: absolute;
 
 }
 .txtfooter a{
@@ -255,7 +261,7 @@ text-decoration: none;
     font-weight: 600;
     line-height: 30px;
     color: white;
-    margin-right: 43px;
+
 }
 
 .txtfooter a:hover{

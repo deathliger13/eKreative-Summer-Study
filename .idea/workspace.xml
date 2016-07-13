@@ -4,7 +4,9 @@
     <list default="true" id="f0d5e2ca-5db9-495b-88f2-cfb20006df39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TemplatePSD/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/contactPage.php" afterPath="$PROJECT_DIR$/TemplatePSD/contactPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/footer.php" afterPath="$PROJECT_DIR$/TemplatePSD/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/index.php" afterPath="$PROJECT_DIR$/TemplatePSD/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/stylesheet.css" afterPath="$PROJECT_DIR$/TemplatePSD/stylesheet.css" />
     </list>
     <ignored path="eKreative Summer Internship.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +48,7 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PSD/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="189">
               <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
               <folding />
             </state>
@@ -84,7 +86,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="update_php_v0.2" />
+        <entry key="$PROJECT_DIR$" value="PhP_New_Template" />
       </map>
     </option>
     <push-targets>
@@ -146,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,7 +201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -274,7 +276,8 @@
       <workItem from="1468392507420" duration="562000" />
       <workItem from="1468395777230" duration="77000" />
       <workItem from="1468396760865" duration="942000" />
-      <workItem from="1468398734155" duration="14000" />
+      <workItem from="1468398734155" duration="54000" />
+      <workItem from="1468402284148" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="update v0.1">
       <created>1467874201487</created>
@@ -409,19 +412,26 @@
       <option name="project" value="LOCAL" />
       <updated>1468396870429</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="PhP makeup v0.5">
+      <created>1468398765310</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1468398765310</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18081000" />
+    <option name="totallyTimeSpent" value="18176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33944222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3450199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5330677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32561728" sideWeight="0.5330677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.49721116" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,7 +477,8 @@
     <MESSAGE value="PhP makeup v0.3" />
     <MESSAGE value="PhP makeup v0.4" />
     <MESSAGE value="PhP makeup v0.4 - added PSD" />
-    <option name="LAST_COMMIT_MESSAGE" value="PhP makeup v0.4 - added PSD" />
+    <MESSAGE value="PhP makeup v0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="PhP makeup v0.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -839,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PSD/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="189">
           <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
           <folding />
         </state>
