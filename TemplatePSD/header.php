@@ -5,7 +5,7 @@ $data = [
    'logo' => 'img/logo.png',
     'menu' => [
         ['title' => 'Home',
-        'url' => 'mainPage.php'],
+        'url' => 'index.php'],
     [
         'title' => 'About',
         'url' => 'aboutPage.php'],
@@ -14,21 +14,23 @@ $data = [
         'url' => 'workPage.php'],
     [
         'title' => 'Blog',
-        'url' => '#'],
+        'url' => 'blogPage.php'],
     [
         'title' => 'Contact',
-        'url' => '#']
+        'url' => 'contactPage.php']
 ],
 ];
 ?>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link type="text/css" rel="stylesheet" href="normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="normalize.sass"/>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300,300italic,600italic,700italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
+<div id="wrapper" class wrpper>
 <header>
     <div class="headerPortfolio">
         <div>
@@ -47,5 +49,4 @@ $data = [
         </div>
     </div>
 </header>
-</body>
-</html>
+

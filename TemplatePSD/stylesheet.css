@@ -1,44 +1,28 @@
+.wrapper {
+  max-width: 1240px; }
+
 .headerPortfolio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    height: 127px;
-    background-color: #87509c;
-}
+  max-height: 127px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 8rem;
+  background-color: #87509c; }
 
 .logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+  float: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 30px; }
 
 .list {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    list-style: none;
-}
-
-.list li {
+  float: right;
+  list-style: none; }
+  .list li {
+    display: inline-block;
     margin-right: 44px;
     font-family: Titillium Web, sans-serif;
-
-}
-
-.list a:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #643a79;
-    border-radius: 4px 3px 3px 4px;
-}
-
-.list a {
+    margin-top: 20px; }
+  .list a {
     text-decoration: none;
     color: white;
     font-family: Titillium Web, sans-serif;
@@ -46,99 +30,294 @@
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
-    height: 32px;
-}
+    height: 32px; }
+    .list a:hover {
+      color: white;
+      background-color: #643a79;
+      border-radius: 4px 3px 3px 4px; }
 
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #87509c;
-    height: 600px;
-}
-.content{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+.body {
+  background-color: #87509c;
+  height: 600px; }
 
+.content {
+  padding-top: 8rem; }
 
-}
 .title {
-text-align: center;
-    margin: 0%;
-    width: 906px;
-    height: 88px;
-    color: #f7f3ea;
-    font-family: Titillium Web, sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 49px;
-    margin-top: 105px;
-}
+  text-align: center;
+  margin: 0 auto;
+  width: 906px;
+  height: 88px;
+  color: #f7f3ea;
+  font-family: Titillium Web, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px; }
 
-.butt1{
-    width: 293px;
-    height: 70px;
-    background-color: #eb7d4b;
-    border-radius: 4px;
-    color: white;
-    font-family: Titillium Web, sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 26px;
-    border: none;
-    margin-top: 60px;
-}
+.buttBlock {
+  display: inline-block;
+  padding-top: 5rem; }
 
-.aboutBody{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 751px;
-    background-color: #17c2a4;
+.butt1 {
+  margin: 0 auto;
+  width: 293px;
+  height: 70px;
+  background-color: #eb7d4b;
+  border-radius: 4px;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  border: none;
+  vertical-align: middle;
+  position: absolute;
+  left: 460px; }
 
-}
-.aboutContent{
-text-align: center;
-}
-.Container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row;
-}
+.aboutBody {
+  padding: 2rem;
+  max-height: 751px;
+  background-color: #17c2a4; }
 
-.aboutHeader{
-    color: white;
-    font-family: Titillium Web, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    /*margin-top: -112px;*/
+.aboutContent {
+  text-align: center; }
 
-}
-.aboutTxt{
-    color: white;
-    font-family: Titillium Web, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-}
-.conHeader{
-    color: white;
+.Container {
+  padding-right: 120px; }
+
+.aboutHeader {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase; }
+
+.aboutTxt {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; }
+
+.blockCon {
+  display: inline-block;
+  text-align: center;
+  max-width: 116px;
+  padding-left: 8rem; }
+
+.conHeader {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase; }
+
+.conTxt {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.workBody {
+  max-height: 1423px;
+  background-color: #fd9; }
+
+.workHeader {
+  padding-top: 2rem;
+  margin: 0%;
+  color: #393939;
+  font-family: Titillium Web, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center; }
+
+.workTxt {
+  color: #393939;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; }
+
+.forbutt:hover {
+  height: 38px;
+  background-color: white;
+  border-radius: 4px; }
+
+.workContent {
+  text-align: center; }
+
+.workBtn button {
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  border: none;
+  margin-right: 2px; }
+
+.workImg1 {
+  display: inline-block;
+  margin-top: 68px; }
+
+.workImg2 {
+  display: inline-block;
+  margin-top: 55px; }
+
+.Load {
+  width: 293px;
+  height: 70px;
+  background-color: #17c2a4;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-top: 68px; }
+
+.imgTxt {
+  color: #393939;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+.footContent {
+  display: inline-block;
+  padding-left: 9rem; }
+
+.footer {
+  height: 112px;
+  background-color: #344b8e; }
+
+.txtfooter {
+  position: absolute; }
+  .txtfooter a {
+    text-decoration: none;
     font-family: Titillium Web, sans-serif;
     font-size: 24px;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: uppercase;
-}
+    font-weight: 600;
+    line-height: 30px;
+    color: white; }
+    .txtfooter a:hover {
+      color: #30bae7; }
 
-.conTxt{
-    color: white;
-    font-family: Titillium Web, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-}
+.blogHeader {
+  color: #3c4761;
+  font-family: Titillium Web, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px; }
+
+.blogTxt {
+  color: #3c4761;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; }
+
+.blogHeader3 {
+  color: #3c4761;
+  font-family: Titillium Web, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase; }
+
+.blogBody {
+  max-height: 655px;
+  background-color: white; }
+
+.blogContainer {
+  display: inline-block;
+  margin: 60px; }
+
+.blogContent {
+  text-align: center; }
+
+.blCon, .contactForm {
+  display: inline-block; }
+
+.contactBody {
+  padding-top: 2rem;
+  background-color: #3c5499;
+  max-height: 819px;
+  text-align: center; }
+
+.contactHeader {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px; }
+
+.contactTxt {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; }
+
+.txt1 {
+  width: 435px;
+  height: 56px;
+  background-color: #273a71;
+  border-radius: 4px 3px 3px 4px;
+  border-style: none;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.txt2 {
+  width: 420px;
+  height: 56px;
+  background-color: #273a71;
+  border-radius: 4px 3px 3px 4px;
+  border-style: none;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.area {
+  width: 860px;
+  height: 200px;
+  background-color: #273a71;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.contactSend {
+  height: 70px;
+  width: 125px;
+  background-color: #30bae7;
+  border-radius: 4px;
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  border-style: none; }
+
+.textStyle {
+  display: inline-block; }
+
+.areaStyle {
+  padding-top: 1rem; }
+
+.buttSend {
+  display: inline-block; }
+
+/*# sourceMappingURL=stylesheet.csst.css.map */
