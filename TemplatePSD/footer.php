@@ -43,6 +43,7 @@ $footerContent = [
 <?php }?>
 
 </footer>
+</div>
 </body>
 
 </html>

@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d5e2ca-5db9-495b-88f2-cfb20006df39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/normalize.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/normalize.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/stylesheet.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplatePSD/stylesheet.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PSD/home.php" afterPath="$PROJECT_DIR$/PSD/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TemplatePSD/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/contactPage.php" afterPath="$PROJECT_DIR$/TemplatePSD/contactPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/footer.php" afterPath="$PROJECT_DIR$/TemplatePSD/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/header.php" afterPath="$PROJECT_DIR$/TemplatePSD/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/index.php" afterPath="$PROJECT_DIR$/TemplatePSD/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/normalize.css" afterPath="$PROJECT_DIR$/TemplatePSD/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplatePSD/stylesheet.css" afterPath="$PROJECT_DIR$/TemplatePSD/stylesheet.css" />
     </list>
     <ignored path="eKreative Summer Internship.iws" />
@@ -44,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PSD/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="344">
               <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -98,11 +119,12 @@
         <option value="$PROJECT_DIR$/PSD/main.html" />
         <option value="$PROJECT_DIR$/PSD/stylesheet.css" />
         <option value="$PROJECT_DIR$/PSD/test.php" />
-        <option value="$PROJECT_DIR$/PSD/home.php" />
         <option value="$PROJECT_DIR$/TemplatePSD/workPage.php" />
         <option value="$PROJECT_DIR$/TemplatePSD/stylesheet.css" />
         <option value="$PROJECT_DIR$/TemplatePSD/ .php" />
         <option value="$PROJECT_DIR$/TemplatePSD/contactPage.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/PSD/home.php" />
       </list>
     </option>
   </component>
@@ -117,9 +139,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="47" />
     <option name="y" value="24" />
-    <option name="width" value="1301" />
+    <option name="width" value="1319" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -147,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,28 +202,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eKreative Summer Internship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eKreative Summer Internship" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TemplatePSD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +282,9 @@
       <workItem from="1468398734155" duration="54000" />
       <workItem from="1468402284148" duration="264000" />
       <workItem from="1468411670632" duration="613000" />
-      <workItem from="1468414264902" duration="11000" />
+      <workItem from="1468414264902" duration="474000" />
+      <workItem from="1468484141289" duration="50000" />
+      <workItem from="1468484261649" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="update v0.1">
       <created>1467874201487</created>
@@ -434,17 +440,24 @@
       <option name="project" value="LOCAL" />
       <updated>1468411740113</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="PhP makeup v1.0 - Final">
+      <created>1468414302616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1468414302616</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19009000" />
+    <option name="totallyTimeSpent" value="19721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="47" y="24" width="1319" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3569721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24037707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32561728" sideWeight="0.53944224" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -495,29 +508,14 @@
     <MESSAGE value="PhP makeup v0.5" />
     <MESSAGE value="PhP makeup v0.6 - no FLEX, header, footer, index.php" />
     <MESSAGE value="PhP makeup v0.7 - no FLEX" />
-    <option name="LAST_COMMIT_MESSAGE" value="PhP makeup v0.7 - no FLEX" />
+    <MESSAGE value="PhP makeup v1.0 - Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="PhP makeup v1.0 - Final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PSD/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PSD/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PSD/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -857,19 +855,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TemplatePSD/ .php" />
-    <entry file="file://$PROJECT_DIR$/PSD/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TemplatePSD/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,6 +873,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="327" column="4" selection-start-line="327" selection-start-column="4" selection-end-line="327" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplatePSD/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PSD/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>

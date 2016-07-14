@@ -24,11 +24,13 @@ $data = [
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link type="text/css" rel="stylesheet" href="normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="normalize.sass"/>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300,300italic,600italic,700italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
+<div id="wrapper" class wrpper>
 <header>
     <div class="headerPortfolio">
         <div>

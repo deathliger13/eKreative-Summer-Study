@@ -70,7 +70,6 @@
 
     </div>
 
-
     <h3 class="oNews">Our News</h3>
 <?php foreach ($newsList as $news) { ?>
     <div class="imgContainer2">

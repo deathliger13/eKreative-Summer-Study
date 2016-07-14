@@ -6,7 +6,7 @@
     </p>
     </div>
         <div class="buttBlock">
-        <button class="butt1">Work With Us</button>
+        <button class="butt1" >Work With Us</button>
     </div>
 </div>
 
