@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d5e2ca-5db9-495b-88f2-cfb20006df39" name="Default" comment="PSD template Notify - v1.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/google+.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/linked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/photos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotifyPSD/img/youtube.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/.idea/workspace.xml" afterPath="$PROJECT_DIR$/NotifyPSD/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/footer.php" afterPath="$PROJECT_DIR$/NotifyPSD/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/header.php" afterPath="$PROJECT_DIR$/NotifyPSD/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/index.php" afterPath="$PROJECT_DIR$/NotifyPSD/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/node_modules/sass-mediaqueries/_media-queries.scss" afterPath="$PROJECT_DIR$/NotifyPSD/node_modules/sass-mediaqueries/_media-queries.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/normalize.css" afterPath="$PROJECT_DIR$/NotifyPSD/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/normalize.css.map" afterPath="$PROJECT_DIR$/NotifyPSD/normalize.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/stylesheet.css" afterPath="$PROJECT_DIR$/NotifyPSD/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/stylesheet.css.map" afterPath="$PROJECT_DIR$/NotifyPSD/stylesheet.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotifyPSD/stylesheet.sass" afterPath="$PROJECT_DIR$/NotifyPSD/stylesheet.sass" />
@@ -76,21 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PSD/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NotifyPSD/stylesheet.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -194,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,9 +193,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eKreative Summer Internship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eKreative Summer Internship" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotifyPSD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +294,8 @@
       <workItem from="1468484141289" duration="50000" />
       <workItem from="1468484261649" duration="272000" />
       <workItem from="1469023856333" duration="1526000" />
-      <workItem from="1469089876542" duration="172000" />
+      <workItem from="1469089876542" duration="618000" />
+      <workItem from="1469093320872" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="update v0.1">
       <created>1467874201487</created>
@@ -488,17 +472,24 @@
       <option name="project" value="LOCAL" />
       <updated>1469024132960</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="PSD template Notify - v1.0">
+      <created>1469090055204</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1469090055204</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21492000" />
+    <option name="totallyTimeSpent" value="21956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1319" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24823253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25216025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5451689" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -932,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NotifyPSD/stylesheet.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
+        <state relative-caret-position="18">
           <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
           <folding />
         </state>

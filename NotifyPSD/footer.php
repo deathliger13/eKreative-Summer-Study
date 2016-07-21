@@ -1,4 +1,5 @@
 <footer class="footer"/>
+<div class="footer-container">
 <div class="list">
     <ul class="link">
         <li><a href="#">Contact<a/></li>
@@ -9,6 +10,7 @@
         <li><a href="#">Privacy Policy<a/></li>
 
     </ul>
+</div>
 </div>
 </footer>
 </body>
