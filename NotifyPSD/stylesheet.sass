@@ -1,7 +1,13 @@
 @import "./node_modules/sass-mediaqueries/media-queries"
 
-.wrapper
-  max-width: 1360px
+.clearfix:after
+  content: ''
+  display: block
+  clear: both
+  width: 0
+  height: 0
+  overflow: hidden
+
 
 .index-content
   max-width: 100%
@@ -19,8 +25,11 @@
 
 .footer
   max-width: 100%
-  max-height: 15%
+  height: 132px
   background-color: #e3e3e3
+  text-align: center
+  margin-top: 2%
+
 
 .link
   list-style: none
@@ -36,10 +45,12 @@
 
 .link li
   display: inline
-  padding-left: 7%
+  padding: 2%
 
 .list
   max-width: 100%
+  padding-top: 2.5%
+
 
 .back-img
   max-width: 100%
@@ -50,7 +61,7 @@
   max-width: 100%
   height: 400px
   background-size: 100%
-  @media (max-width: 320px)
+  @media (max-width: 768px)
     height: 150px
 
 .noty-title
@@ -59,20 +70,9 @@
   font-weight: 400
   color: #FFFFFF
   margin: 0%
-  @media (max-width: 320px)
-    font-size: 18px
-  @media (max-width: 360px)
-    font-size: 18px
-  @media (max-width: 411px)
-    font-size: 18px
-  @media (max-width: 435px)
-    font-size: 18px
-  @media (max-width: 375px)
-    font-size: 18px
-  @media (max-width: 414px)
-    font-size: 18px
   @media (max-width: 768px)
     font-size: 18px
+
 
 .noty-txt
   color: white
@@ -81,20 +81,6 @@
   font-weight: 500
   margin: 0%
   padding-top: 2%
-  @media (max-width: 320px)
-    font-size: 16px
-  @media (max-width: 320px)
-    font-size: 16px
-  @media (max-width: 360px)
-    font-size: 16px
-  @media (max-width: 411px)
-    font-size: 16px
-  @media (max-width: 435px)
-    font-size: 16px
-  @media (max-width: 375px)
-    font-size: 16px
-  @media (max-width: 414px)
-    font-size: 16px
   @media (max-width: 768px)
     font-size: 16px
 
@@ -103,16 +89,13 @@
   padding-right: 40%
   padding-top: 5%
 
-.noty
-
 .round-a:hover
   background-color: #2ecc71
-
 .round-an:hover
   background-color: #2ecc71
-
 .round-w:hover
   background-color: #2ecc71
+
 
 .round-a
   background-color: #030303
@@ -121,28 +104,9 @@
   margin: 0%
   width: 52px
   height: 52px
-  @media (max-width: 320px)
-    width: 22px
-    height: 22px
-  @media (max-width: 360px)
-    width: 22px
-    height: 22px
-  @media (max-width: 411px)
-    width: 22px
-    height: 22px
-  @media (max-width: 435px)
-    width: 22px
-    height: 22px
-  @media (max-width: 375px)
-    width: 22px
-    height: 22px
-  @media (max-width: 414px)
-    width: 22px
-    height: 22px
   @media (max-width: 768px)
     width: 22px
     height: 22px
-
 .round-an
   background-color: #030303
   border-radius: 50%
@@ -150,28 +114,9 @@
   margin: 0%
   width: 52px
   height: 52px
-  @media (max-width: 320px)
-    width: 22px
-    height: 22px
-  @media (max-width: 360px)
-    width: 22px
-    height: 22px
-  @media (max-width: 411px)
-    width: 22px
-    height: 22px
-  @media (max-width: 435px)
-    width: 22px
-    height: 22px
-  @media (max-width: 375px)
-    width: 22px
-    height: 22px
-  @media (max-width: 414px)
-    width: 22px
-    height: 22px
   @media (max-width: 768px)
     width: 22px
     height: 22px
-
 .round-w
   background-color: #030303
   border-radius: 50%
@@ -179,104 +124,28 @@
   margin: 0%
   width: 52px
   height: 52px
-  @media (max-width: 320px)
-    width: 22px
-    height: 22px
-  @media (max-width: 360px)
-    width: 22px
-    height: 22px
-  @media (max-width: 411px)
-    width: 22px
-    height: 22px
-  @media (max-width: 435px)
-    width: 22px
-    height: 22px
-  @media (max-width: 375px)
-    width: 22px
-    height: 22px
-  @media (max-width: 414px)
-    width: 22px
-    height: 22px
   @media (max-width: 768px)
     width: 22px
     height: 22px
-
 .apple
   padding-top: 20%
-  @media (max-width: 320px)
-    width: 9px
-    height: 12px
-  @media (max-width: 360px)
-    width: 9px
-    height: 12px
-  @media (max-width: 411px)
-    width: 9px
-    height: 12px
-  @media (max-width: 435px)
-    width: 9px
-    height: 12px
-  @media (max-width: 375px)
-    width: 9px
-    height: 12px
-  @media (max-width: 414px)
-    width: 9px
-    height: 12px
   @media (max-width: 768px)
     width: 9px
     height: 12px
-
 .android
   padding-top: 20%
-  @media (max-width: 320px)
-    width: 9px
-    height: 12px
-    @media (max-width: 360px)
-      width: 9px
-      height: 12px
-  @media (max-width: 411px)
-    width: 9px
-    height: 12px
-  @media (max-width: 435px)
-    width: 9px
-    height: 12px
-  @media (max-width: 375px)
-    width: 9px
-    height: 12px
-  @media (max-width: 414px)
-    width: 9px
-    height: 12px
   @media (max-width: 768px)
     width: 9px
     height: 12px
-
 .windows
   padding-top: 20%
-  @media (max-width: 320px)
-    width: 9px
-    height: 12px
-    @media (max-width: 360px)
-      width: 9px
-      height: 12px
-  @media (max-width: 411px)
-    width: 9px
-    height: 12px
-  @media (max-width: 435px)
-    width: 9px
-    height: 12px
-  @media (max-width: 375px)
-    width: 9px
-    height: 12px
-  @media (max-width: 414px)
-    width: 9px
-    height: 12px
   @media (max-width: 768px)
     width: 9px
     height: 12px
-
 .content-1
-
   text-align: center
   max-width: 100%
+  margin-top: 2%
 
 .c-1
   max-width: 300px
@@ -295,8 +164,8 @@
 .c-2
   display: inline-block
   float: left
+  padding-left: 2%
   max-width: 400px
-  padding-right: 15%
   p
     margin: 0%
     text-align: left
@@ -316,7 +185,7 @@
     border-radius: 15px
     .player
   display: inline-block
-  padding-left: 10%
+
 
 button
   color: #fff
@@ -329,10 +198,89 @@ button
   border-radius: 15px
 
 iframe
-  @media (max-width: 320px)
-    height: 150px
-    width: 200px
+  float: right
+  padding-right: 3%
+  @media (max-width: 768px)
+    height: 300px
+    width: 100%
 
 .content-2
   background-color: #e3e3e3
   max-width: 100%
+  margin-top: 2%
+
+.c3-txt
+  color: #848484
+  font-family: Pacifico, sans-serif
+  font-size: 16px
+  font-style: italic
+  text-align: center
+  width: 100%
+
+.content-3
+  margin-top: 2%
+
+.c-3
+  text-align: center
+  max-width: 100%
+
+.images:hover
+  opacity: 0.6
+  background-color: #2ecc71
+
+.social
+  padding-top: 20%
+  display: inline-block
+  width: 20px
+  height: 25px
+
+.img-social
+  max-width: 100%
+
+.soc:hover
+  background-color: #2ecc71
+
+.soc
+  width: 40px
+  height: 40px
+  background-color: #c5c5c5
+  border-radius: 50%
+  display: inline-block
+  margin: 0
+
+.c-4
+  text-align: center
+  h3
+    color: #000
+    font-family: Raleway, sans-serif
+    font-size: 24px
+    font-weight: 600
+  p
+    color: #848484
+    font-family: Pacifico, sans-serif
+    font-size: 16px
+    font-weight: 400
+
+.footer-container
+  max-width: 1300px
+  margin: 0 auto
+
+.header-container
+  max-width: 1300px
+  margin: 0 auto
+
+.container-1
+  max-width: 1300px
+  margin: 0 auto
+
+.container-2
+  max-width: 1300px
+  margin: 0 auto
+
+.container-3
+  max-width: 1300px
+  margin: 0 auto
+
+.container-4
+  max-width: 1300px
+  margin: 0 auto

@@ -11,6 +11,10 @@
 </head>
 <div class="wrapper">
     <body>
+
     <header class="content-header">
+    <div class="header-container">
         <img src="img/notifylogo.png" alt="404" class="logo">
+    </div>
     </header>
+
